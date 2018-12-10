@@ -1,4 +1,4 @@
-.App {
+.Board {
   text-align: center;
 }
 
@@ -29,4 +29,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.list-group-item {
+  padding: 0;
+}
+
+.board-item-btn {
+  padding-top: 0 !important;
+  padding-bottom: 0  !important;
+  padding-left: 0.24rem;
+  padding-right: 0.24rem;
+  box-shadow: unset;
+  border: none !important;
+}
+
+.board-item {
+  padding-top: 0 !important;
+  padding-bottom: 0  !important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cursor-pointer{
+  cursor: pointer;
 }
